@@ -1,3 +1,4 @@
+// Function declaration
 function calculateArea(length: number, width: number): string {
     return `The area is ${length * width}`;
 }
