@@ -1,4 +1,4 @@
-import { Book, Code, Home, HomeIcon } from "lucide-react";
+import { Book, Code, HomeIcon } from "lucide-react";
 import Container from "./Container";
 import TextCard from "./TextCard";
 import Button from "./Button";

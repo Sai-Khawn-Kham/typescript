@@ -1,4 +1,5 @@
-import type { FC, HTMLAttributes, ReactNode } from "react";
+import type { FC } from "react";
+import type { ContainerProps } from "../types/PropTypes";
 
 // const Container = ({ children, className} : { children: ReactElement, className: string}) => {
 //   return (
@@ -6,21 +7,13 @@ import type { FC, HTMLAttributes, ReactNode } from "react";
 //   )
 // }
 
-
 // type ContainerProps = {
 //   className?: string;
 //   children: ReactElement;
 // };
-
 // const Container = ({ children, className }: ContainerProps) => {
 //   return <div className={` ${className}`}>{children}</div>;
 // };
-
-
-type ContainerProps = {
-  className?: string;
-  children: ReactNode;
-} & HTMLAttributes<HTMLDivElement>;
 
 const Container: FC<ContainerProps> = ({
   children,

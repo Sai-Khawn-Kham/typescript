@@ -1,10 +1,4 @@
-import type { ReactElement } from "react";
-
-type TextCardProps = {
-  heading: string;
-  description: string;
-  icon: ReactElement;
-};
+import type { TextCardProps } from "../types/PropTypes";
 
 // const TextCard: FC<TextCardProps> = ({ heading, description, icon }) => {
 //   return (
