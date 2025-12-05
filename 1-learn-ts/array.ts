@@ -19,9 +19,25 @@ let arr2d: number[][] = [
   [7, 8, 9]
 ];
 
+let matrix: (number[] | string[])[] = [
+  [1, 2, 3],
+  ["7", "8", "9"],
+  [4, 5, 6],
+];
+
+type Matrix<T> = T[][];
+
+let matrix2: Matrix<number | string> = [
+  [1, 2, 3],
+  [4, 5, 6],
+  ["7", "8", "9"],
+];
+
 let strings: Array<string> = ["a", "b", "c"];
 
 let anyGeneric: Array<any> = ["a", 2, { key: "value" }, [1, 2, 3], true];
+
+let info: Array<number | string | boolean> = [1, "hello", true];
 
 let grid: Array<Array<Array<number>>> = [
   [
